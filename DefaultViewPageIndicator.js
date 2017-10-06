@@ -12,8 +12,8 @@ var {
 } = ReactNative;
 
 var deviceWidth = Dimensions.get('window').width;
-var DOT_SIZE = 6;
-var DOT_SAPCE = 4;
+var DOT_SIZE = 10;
+var DOT_SAPCE = 12/2;
 
 var styles = StyleSheet.create({
   tab: {
@@ -30,7 +30,7 @@ var styles = StyleSheet.create({
     width: DOT_SIZE,
     height: DOT_SIZE,
     borderRadius: DOT_SIZE / 2,
-    backgroundColor: '#E0E1E2',
+    backgroundColor: 'rgba(255,255,255,0.3)',
     marginLeft: DOT_SAPCE,
     marginRight: DOT_SAPCE,
   },
@@ -40,7 +40,7 @@ var styles = StyleSheet.create({
     width: DOT_SIZE,
     height: DOT_SIZE,
     borderRadius: DOT_SIZE / 2,
-    backgroundColor: '#80ACD0',
+    backgroundColor: '#ffffff',
     margin: DOT_SAPCE,
     bottom: 0,
   },
